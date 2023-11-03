@@ -1,0 +1,25 @@
+plugins {
+    id 'java-library'
+    id 'io.qameta.allure' version '2.11.0'
+}
+
+group 'org.veta'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            "org.assertj:assertj-core:3.23.1",
+            "org.junit.jupiter:junit-jupiter:5.9.1",
+            "org.slf4j:slf4j-api:1.7.28",
+            "org.slf4j:slf4j-simple:1.7.28",
+            "com.codeborne:selenide:6.10.1",
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
