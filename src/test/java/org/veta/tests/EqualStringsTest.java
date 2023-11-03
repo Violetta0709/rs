@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static org.veta.tests.EqualStrings.findSameStrings;
 
 public class EqualStringsTest {
-    String[] array = new String[]{"klo", "nmo", "molk", "lok", "A", "AA", "b", "dfe", "b"};
+    String[] array = new String[] {"klo", "nmo", "molk", "lok", "A", "AA", "b", "dfe", "b"};
 
     @Owner("V.Yuzykhovich")
     @DisplayName("Finding equal strings")
