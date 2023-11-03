@@ -1,4 +1,4 @@
-package org.veta.tests;
+package org.veta.methods;
 
 import java.util.Arrays;
 
